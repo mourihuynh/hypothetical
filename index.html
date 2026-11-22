@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hypothetical Structures – Cấu trúc giả định trong tiếng Anh</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Lexend:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F2F4FF;--sf:#fff;--ink:#0A0F29;--mu:#363E6B;--ln:#CBD1F0;--ye:#FFD23F;--sh:0 18px 44px -24px rgba(20,30,110,.5);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0B0F26;--sf:#151B42;--ink:#F4F6FF;--mu:#BCC3EE;--ln:#2C3470;--sh:0 18px 44px -24px #000;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0B0F26;--sf:#151B42;--ink:#F4F6FF;--mu:#BCC3EE;--ln:#2C3470;--sh:0 18px 44px -24px #000;color-scheme:dark}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:150px}
+body{background:var(--bg);color:var(--ink);font:500 19px/1.7 'Be Vietnam Pro',system-ui,-apple-system,'Segoe UI',sans-serif;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Lexend,system-ui,sans-serif;line-height:1.15;letter-spacing:-.02em;font-weight:800}
+a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;cursor:pointer}
+.w{max-width:980px;margin:0 auto;padding:0 20px}
+:focus-visible{outline:4px solid var(--ye);outline-offset:3px;border-radius:10px}
+.top{position:sticky;top:0;z-index:30;background:var(--sf);border-bottom:2px solid var(--ln);padding-top:env(safe-area-inset-top,0px)}
+.top .w{display:flex;justify-content:space-between;align-items:center;height:64px}
+.logo{font:800 20px Lexend;display:flex;gap:10px;align-items:center}.logo i{background:#2340D8;color:#fff;border-radius:12px;width:38px;height:38px;display:grid;place-items:center;font-style:normal;font-size:20px}
+.pg{font-size:16px;font-weight:700;color:var(--mu)}
+.btn{display:inline-flex;gap:8px;align-items:center;justify-content:center;background:var(--c,#2340D8);color:#fff;border:0;border-radius:16px;padding:14px 26px;font:700 18px Lexend,sans-serif;box-shadow:inset 0 -4px 0 rgba(0,0,0,.22);transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}.btn.gh{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 3px var(--ln)}
+/* home */
+.hero{padding:56px 0 40px}.hero h1{font-size:clamp(38px,7vw,70px);margin-bottom:16px}.hero h1 span{background:var(--ye);color:#0A0F29;padding:0 14px;border-radius:14px;display:inline-block;transform:rotate(-1.2deg)}
+.hero p{font-size:22px;color:var(--mu);max-width:30em}
+.grp{margin:44px 0 16px;font-size:28px;display:flex;gap:12px;align-items:center}.grp i{font-style:normal;background:var(--c);color:#fff;border-radius:12px;width:44px;height:44px;display:grid;place-items:center;font-size:22px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px}
+.tile{background:var(--sf);border:3px solid var(--ln);border-radius:26px;padding:24px;display:flex;flex-direction:column;gap:8px;position:relative;transition:transform .15s,border-color .15s,box-shadow .15s}
+.tile:hover{transform:translateY(-4px);border-color:var(--c);box-shadow:var(--sh)}
+.tile b{font:800 24px Lexend}.tile span{color:var(--mu);font-size:17px}.tile code{font:600 16px Lexend;background:color-mix(in srgb,var(--c) 14%,transparent);color:var(--c);padding:6px 12px;border-radius:10px;width:fit-content}
+.tile.ok:after{content:attr(data-s);position:absolute;top:16px;right:16px;background:var(--c);color:#fff;font:700 14px Lexend;padding:3px 12px;border-radius:99px}
+.tb{width:100%;border-collapse:separate;border-spacing:0;background:var(--sf);border:3px solid var(--ln);border-radius:22px;overflow:hidden;font-size:17px}
+.tbw{overflow-x:auto;border-radius:22px}.tb th,.tb td{padding:14px 18px;text-align:left;border-bottom:2px solid var(--ln)}.tb th{background:#2340D8;color:#fff;font-family:Lexend}.tb tr:last-child td{border-bottom:0}
+/* lesson */
+.crumb{display:flex;justify-content:space-between;gap:10px;padding:22px 0 10px;font-weight:700;color:var(--mu);font-size:17px}
+.lh{background:var(--c);color:#fff;border-radius:34px;padding:36px;box-shadow:var(--sh)}
+.lh small{font:700 16px Lexend;opacity:.92;text-transform:uppercase;letter-spacing:.08em}.lh h1{font-size:clamp(34px,6vw,56px);margin:8px 0 8px}.lh p{font-size:21px;opacity:.96}
+.sn{position:sticky;top:64px;z-index:20;background:var(--bg);display:flex;gap:8px;overflow-x:auto;padding:12px 0;scrollbar-width:none}
+.sn a{flex:none;background:var(--sf);border:3px solid var(--ln);border-radius:99px;padding:8px 18px;font:700 16px Lexend}
+.sn a:hover{border-color:var(--c);color:var(--c)}
+.sec{background:var(--sf);border:3px solid var(--ln);border-radius:30px;padding:32px;margin-top:20px}
+.sec>h2{font-size:30px;display:flex;gap:14px;align-items:center;margin-bottom:20px}.sec>h2 i{font-style:normal;background:var(--c);color:#fff;min-width:54px;height:54px;padding:0 10px;border-radius:16px;display:grid;place-items:center;font-size:22px}
+.def{font-size:22px;line-height:1.65}
+.card{background:var(--bg);border:2px solid var(--ln);border-left:8px solid var(--c);border-radius:18px;padding:18px 22px;margin-bottom:14px}
+.card .f{font:700 20px Lexend;color:var(--c);margin-bottom:6px}.card .f[data-k]:before{content:attr(data-k);display:inline-block;background:var(--c);color:#fff;border-radius:9px;padding:0 10px;margin-right:10px;font-size:17px}
+.en{font:700 22px Lexend;display:flex;gap:12px;align-items:flex-start;justify-content:space-between}
+.vi{color:var(--mu);font-size:18px;margin-top:2px}
+.say{flex:none;width:44px;height:44px;border-radius:50%;border:0;background:var(--c);color:#fff;font-size:18px}
+.lab{font-weight:700;color:var(--mu);font-size:17px;margin-bottom:4px}
+/* exercises */
+.ex{background:var(--bg);border:2px solid var(--ln);border-radius:22px;padding:22px;margin-bottom:14px}
+.ex h3{font-size:16px;color:var(--c);margin-bottom:6px;text-transform:uppercase;letter-spacing:.06em}.q{font:700 22px/1.45 Lexend;margin-bottom:12px}
+.opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.opt{border:3px solid var(--ln);background:var(--sf);border-radius:16px;padding:14px;font:600 19px 'Be Vietnam Pro'}.opt:hover{border-color:var(--c)}
+.opt.good{background:#0A7A3E;border-color:#0A7A3E;color:#fff}.opt.bad{background:#C0262D;border-color:#C0262D;color:#fff}
+.in{border:3px solid var(--ln);background:var(--sf);color:var(--ink);border-radius:12px;padding:8px 14px;font:600 20px 'Be Vietnam Pro';width:min(260px,100%);margin:0 6px}
+.ans,.bank{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;min-height:56px;padding:8px;border-radius:14px}.ans{border:3px dashed var(--ln)}
+.fb{margin-top:12px;font:700 19px Lexend;min-height:26px}.fb.g{color:#0A7A3E}.fb.b{color:#C0262D}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .fb.g{color:#5BE39A}:root:not([data-theme="light"]) .fb.b{color:#FF8A8F}}
+.res{margin-top:16px;background:var(--ink);color:var(--bg);border-radius:22px;padding:20px 26px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;font:700 22px Lexend}
+.nav2{display:flex;justify-content:space-between;gap:12px;margin:26px 0 60px}
+@media(max-width:700px){body{font-size:18px}.sec{padding:22px}.lh{padding:26px}.en{font-size:20px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="top"><div class="w"><a class="logo" href="#home"><i>?</i>Giả định</a><span class="pg" id="pg"></span></div></div>
+<div id="app"></div>
+
+<script>
+const RAW=`@Present Wish|Wish ở hiện tại|Wish + quá khứ đơn|Dùng để nói về một điều ước không có thật ở hiện tại, hoặc điều mình không hài lòng ở thời điểm nói. Động từ sau wish lùi một thì: hiện tại → quá khứ đơn.
+U|I wish I had more free time.|Ước gì tôi có nhiều thời gian rảnh hơn (thực tế là không có).
+U|She wishes she lived near the sea.|Cô ấy ước được sống gần biển (thực tế là không).
+U|We wish we could speak French.|Chúng tôi ước nói được tiếng Pháp (thực tế là không nói được).
+S|S + wish(es) + S + V2/V-ed|I wish I knew the answer.
+S|S + wish + S + were (mọi ngôi) + ...|I wish I were taller.
+S|S + wish + S + could + V|I wish I could swim.
+S|S + wish + S + didn't + V (phủ định)|I wish I didn't have to work today.
+N|"were" dùng cho mọi ngôi. Trong văn nói thân mật có thể dùng "was".|I wish he were here. / I wish he was here.
+N|Chỉ dùng cho điều TRÁI với hiện tại. Điều có thể xảy ra thì không dùng wish.|I am busy now. → I wish I weren't busy now.
+N|Dùng "could" khi nói về khả năng mình chưa có.|I can't drive. → I wish I could drive.
+A|Bày tỏ sự không hài lòng về hiện trạng.|It's raining. → I wish it weren't raining.
+A|Nói về khả năng, kỹ năng mình chưa có.|I can't dance. → I wish I could dance.
+A|Nói về hoàn cảnh sống, công việc.|I live in a small flat. → I wish I lived in a bigger house.
+X|M|I wish I ___ a car.|have/had/would have|1
+X|M|She wishes she ___ here now.|is/were/will be|1
+X|M|He wishes he ___ speak Japanese.|can/could/would|1
+X|M|"I don't know her name." → I wish I ___ her name.|know/knew/had known|1
+X|F|I wish I ___ (be) taller.|were/was
+X|F|They wish they ___ (live) closer to the city.|lived
+X|F|I wish I ___ (can) play the piano.|could
+X|T|I wish I have more money.|S
+X|T|He wishes he were on holiday now.|Đ
+X|O|I wish I lived in a bigger house
+@Past Wish|Wish ở quá khứ|Wish + quá khứ hoàn thành|Dùng để nói về sự tiếc nuối, hối hận về điều đã xảy ra (hoặc không xảy ra) trong quá khứ. Điều đó không thể thay đổi nữa. Động từ sau wish lùi hai bậc: quá khứ đơn → quá khứ hoàn thành.
+U|I wish I had studied harder.|Ước gì tôi đã học chăm hơn (thực tế là không chăm).
+U|She wishes she hadn't said that.|Cô ấy ước đã không nói điều đó.
+U|We wish we had booked the tickets earlier.|Chúng tôi ước đã đặt vé sớm hơn.
+S|S + wish + S + had + V3/V-ed|I wish I had met her earlier.
+S|S + wish + S + hadn't + V3/V-ed (phủ định)|I wish I hadn't eaten so much.
+S|S + wish + S + could have + V3|I wish I could have gone to the party.
+N|Lùi thì: quá khứ đơn → quá khứ hoàn thành.|I missed the bus. → I wish I hadn't missed the bus.
+N|Thể hiện sự hối tiếc về việc không thể thay đổi.|He wishes he had listened to his mother.
+N|Phân biệt wish hiện tại và quá khứ.|I wish I knew (bây giờ) / I wish I had known (lúc đó).
+A|Hối hận về hành động đã làm.|I forgot her birthday. → I wish I hadn't forgotten her birthday.
+A|Tiếc vì đã không làm một việc.|I didn't learn English as a child. → I wish I had learned English as a child.
+A|Than phiền về sự việc đã xảy ra.|It rained all weekend. → I wish it hadn't rained all weekend.
+X|M|I wish I ___ the exam last year.|passed/had passed/would pass|1
+X|M|She wishes she ___ so rude to him.|wasn't/hadn't been/weren't|1
+X|M|He wishes he ___ to the party last night.|went/had gone/would go|1
+X|M|"I didn't call her." → I wish I ___ her.|called/had called/could call|1
+X|F|I wish I ___ (take) that job.|had taken
+X|F|They wish they ___ (not / sell) the house.|hadn't sold/had not sold
+X|F|She wishes she ___ (listen) to my advice.|had listened
+X|T|I wish I met her yesterday.|S
+X|T|He wishes he hadn't lost his keys.|Đ
+X|O|I wish I had studied harder last semester
+@Future Wish|Wish ở tương lai|Wish + would / could|Dùng để mong muốn một điều gì đó thay đổi trong tương lai, hoặc phàn nàn về hành vi khiến mình khó chịu ở hiện tại. Thường dùng "would" khi hai chủ ngữ khác nhau.
+U|I wish it would stop raining.|Ước gì trời tạnh mưa.
+U|She wishes he would call her.|Cô ấy mong anh ấy sẽ gọi cho cô.
+U|I wish you wouldn't make so much noise.|Tôi mong bạn đừng làm ồn như vậy.
+S|S + wish + S + would + V|I wish he would arrive soon.
+S|S + wish + S + wouldn't + V (phủ định)|I wish they wouldn't be late again.
+S|S + wish + S + could + V|I wish I could visit you next month.
+N|"would" chỉ dùng khi chủ ngữ hai vế khác nhau.|I wish you would help me.
+N|Cùng chủ ngữ thì dùng "could", không dùng "would".|I wish I could go. (không nói: I wish I would go.)
+N|Hay dùng để thể hiện sự bực bội về thói quen của người khác.|I wish he would stop smoking.
+A|Phàn nàn về hành vi gây khó chịu.|My neighbour plays loud music. → I wish he would turn it down.
+A|Mong một điều kiện thay đổi.|It's too hot. → I wish it would get cooler.
+A|Mong có khả năng làm việc gì trong tương lai.|I'm busy next week. → I wish I could join you.
+X|M|I wish it ___ stop raining.|will/would/did|1
+X|M|I wish you ___ talking so loudly.|would stop/stop/stopped|0
+X|M|I wish I ___ come to your party next week.|can/could/would|1
+X|M|Which sentence is correct?|I wish she will call me./I wish she would call me./I wish she calling me.|1
+X|F|I wish he ___ (stop) smoking.|would stop
+X|F|I wish they ___ (not / make) so much noise.|wouldn't make/would not make
+X|F|I wish I ___ (can) join you next week.|could
+X|T|I wish I would pass the exam tomorrow.|S
+X|T|I wish the bus would come soon.|Đ
+X|O|I wish you would help me with this
+@If Only|If only|Giá mà, ước gì|"If only" có nghĩa là "giá mà", "ước gì". Nó mang cảm xúc tiếc nuối hoặc mong muốn mạnh hơn "wish". Cách chia động từ giống hệt wish: hiện tại → quá khứ đơn; quá khứ → quá khứ hoàn thành; tương lai → would/could.
+U|If only I had more time!|Giá mà tôi có thêm thời gian!
+U|If only she hadn't left so early.|Giá mà cô ấy đã không về sớm như vậy.
+U|If only it would stop snowing.|Giá như tuyết ngừng rơi.
+S|If only + S + V2/were (hiện tại)|If only I knew his number.
+S|If only + S + had + V3 (quá khứ)|If only I had listened to you.
+S|If only + S + would/could + V (tương lai)|If only he would call me.
+N|Mạnh hơn "wish", thường dùng như câu cảm thán.|If only I were younger!
+N|"were" dùng cho mọi ngôi.|If only he were here with us.
+N|Có thể đứng một mình, không cần mệnh đề phía sau.|If only I had known!
+A|Tiếc nuối về hiện tại.|I'm poor. → If only I were rich.
+A|Hối hận về quá khứ.|I missed the train. → If only I hadn't missed the train.
+A|Mong người khác thay đổi hành vi.|He never listens. → If only he would listen.
+X|M|If only I ___ more money now!|have/had/would have|1
+X|M|If only she ___ the truth yesterday.|told/had told/would tell|1
+X|M|If only it ___ stop raining!|will/would/did|1
+X|M|If only he ___ here with us now.|is/were/had been|1
+X|F|If only I ___ (know) the answer!|knew
+X|F|If only we ___ (not / argue) last night.|hadn't argued/had not argued
+X|F|If only the weather ___ (get) better.|would get
+X|T|If only I had more time yesterday.|S
+X|T|If only he would stop shouting!|Đ
+X|O|If only I had listened to your advice
+@Would Rather|Would rather|Thà, thích hơn|"Would rather" (viết tắt: 'd rather) diễn tả sự ưa thích hơn một hành động hay một tình huống nào đó: "thích... hơn", "thà... còn hơn". Cách dùng khác nhau tùy theo hai vế có cùng chủ ngữ hay không.
+U|I'd rather stay at home tonight.|Tối nay tôi thích ở nhà hơn.
+U|She would rather drink tea than coffee.|Cô ấy thích uống trà hơn cà phê.
+U|I'd rather you didn't smoke here.|Tôi muốn bạn đừng hút thuốc ở đây.
+S|Cùng chủ ngữ: S + would rather + V (+ than + V)|I'd rather walk than take a taxi.
+S|Khác chủ ngữ (hiện tại/tương lai): S1 + would rather + S2 + V2/V-ed|I'd rather you came tomorrow.
+S|Khác chủ ngữ (quá khứ): S1 + would rather + S2 + had V3|I'd rather you had told me the truth.
+S|Phủ định: S + would rather not + V|I'd rather not go out tonight.
+N|Sau would rather dùng động từ nguyên mẫu không "to".|I'd rather go. (không nói: I'd rather to go.)
+N|Khác chủ ngữ thì lùi thì như wish, không dùng thì hiện tại.|I'd rather he stayed here. (không nói: I'd rather he stays.)
+N|Với động từ be, dùng "were" cho mọi ngôi.|I'd rather she were here.
+A|Nêu sở thích cá nhân.|I'd rather read a book than watch TV.
+A|Đưa ra đề nghị lịch sự.|I'd rather you called me after 8 p.m.
+A|Từ chối nhẹ nhàng.|"Shall we go out?" "I'd rather not."
+X|M|I'd rather ___ at home today.|stay/to stay/staying|0
+X|M|I'd rather you ___ here.|don't smoke/didn't smoke/won't smoke|1
+X|M|I'd rather ___ than drive.|to walk/walk/walking|1
+X|M|I'd rather you ___ me the truth yesterday.|told/had told/tell|1
+X|F|I'd rather ___ (not / go) out tonight.|not go
+X|F|She'd rather he ___ (come) tomorrow.|came
+X|F|I'd rather you ___ (be) here with me.|were
+X|T|I'd rather to stay home.|S
+X|T|I'd rather you didn't tell anyone.|Đ
+X|O|I would rather stay home than go out
+@It's Time|It's time|Đã đến lúc|"It's time" nghĩa là "đã đến lúc". Dùng để nói rằng một việc nên được làm ngay bây giờ hoặc đã hơi muộn. Có hai cách dùng: với to-V, hoặc với một mệnh đề chia quá khứ đơn.
+U|It's time to go home.|Đã đến lúc về nhà rồi.
+U|It's time we started the meeting.|Đã đến lúc chúng ta bắt đầu cuộc họp.
+U|It's about time you got a job.|Đã đến lúc bạn nên đi làm rồi (hơi trách móc).
+S|It's time + (for sb) + to V|It's time for us to leave.
+S|It's time + S + V2/V-ed|It's time he went to bed.
+S|It's high/about time + S + V2/V-ed|It's high time you stopped smoking.
+S|It's time + S + were (với be)|It's time we were at the airport.
+N|Quá khứ đơn nhưng mang nghĩa hiện tại hoặc tương lai.|It's time I left. (= bây giờ tôi nên đi)
+N|"high" và "about" nhấn mạnh sự chậm trễ, thường mang ý phàn nàn.|It's high time you cleaned your room.
+N|Không chia hiện tại sau It's time + S.|Sai: It's time he goes. Đúng: It's time he went.
+A|Nhắc nhở người khác.|It's time you did your homework.
+A|Đề xuất cùng làm.|It's time we took a break.
+A|Phê bình nhẹ.|It's about time he apologised.
+X|M|It's time you ___ to bed.|go/went/going|1
+X|M|It's time ___ home.|to go/go/going|0
+X|M|It's high time he ___ smoking.|stops/stopped/stop|1
+X|M|Choose the correct sentence.|It's time we start./It's time we started./It's time we starting.|1
+X|F|It's time we ___ (leave).|left
+X|F|It's about time you ___ (do) your homework.|did
+X|F|It's time ___ (go) home.|to go
+X|T|It's time he goes to school.|S
+X|T|It's high time you found a job.|Đ
+X|O|It's time we took a short break
+@As If / As Though|As if / As though|Như thể là|"As if" và "as though" có nghĩa "như thể là". Dùng để so sánh một hành động hay trạng thái với một điều không có thật (giả định), hoặc với một điều có vẻ đúng. Hai cụm này có thể thay thế cho nhau.
+U|He talks as if he knew everything.|Anh ta nói như thể biết hết mọi thứ (thực tế là không).
+U|She looks as though she had seen a ghost.|Cô ấy trông như thể vừa nhìn thấy ma.
+U|It looks as if it's going to rain.|Trời trông như sắp mưa (có thể thật).
+S|Không có thật ở hiện tại: S + V + as if + S + V2/were|He acts as if he were the boss.
+S|Không có thật ở quá khứ: S + V + as if + S + had V3|She talks as if she had been there.
+S|Có thể là thật: S + V + as if + S + V (hiện tại)|It looks as if she is tired.
+S|Với mệnh đề phủ định về quá khứ|He smiled as if nothing had happened.
+N|Điều không thật: dùng were cho mọi ngôi.|He talks as though he were rich. (anh ấy không giàu)
+N|Nếu điều đó có thể đúng, dùng thì bình thường.|He looks as if he is ill. (có vẻ thật sự bị ốm)
+N|As though có nghĩa giống as if.|She looks as though she's tired.
+A|Mô tả thái độ giả vờ.|He behaves as if he owned the place.
+A|Nhận xét vẻ bề ngoài.|You look as if you hadn't slept.
+A|Dự đoán dựa trên dấu hiệu.|It sounds as though they are having fun.
+X|M|He talks as if he ___ everything. (He doesn't.)|knows/knew/will know|1
+X|M|She looks as if she ___ a ghost. (She did see one.)|sees/had seen/will see|1
+X|M|He acts as though he ___ the boss. (He isn't.)|is/were/has been|1
+X|M|She spends money as if she ___ rich. (She isn't.)|is/were/will be|1
+X|F|He behaves as if he ___ (own) the company.|owned
+X|F|She talks as though she ___ (visit) Paris many times. (She hasn't.)|had visited
+X|F|He looks as if he ___ (be) a millionaire. (He isn't.)|were/was
+X|T|He talks as if he is a doctor. (He isn't a doctor.)|S
+X|T|She smiled as if nothing had happened.|Đ
+X|O|He talks as if he knew everything
+@I suggest that...|Subjunctive: I suggest that...|Thức giả định sau động từ|Thức giả định (subjunctive) dùng sau các động từ chỉ đề nghị, yêu cầu, ra lệnh như suggest, recommend, propose, insist, demand, request, require, advise, ask, urge. Mệnh đề sau "that" dùng động từ nguyên mẫu không "to", không chia theo ngôi hay thì.
+U|I suggest that he see a doctor.|Tôi đề nghị anh ấy đi khám bác sĩ.
+U|The teacher insists that every student be on time.|Giáo viên yêu cầu mọi học sinh phải đúng giờ.
+U|They demanded that she leave immediately.|Họ yêu cầu cô ấy rời đi ngay lập tức.
+S|S + suggest/recommend/insist... + (that) + S + V (nguyên mẫu)|I recommend that she take a break.
+S|S + suggest + that + S + should + V (Anh–Anh)|I suggest that you should rest.
+S|Phủ định: that + S + not + V|She asked that he not tell anyone.
+S|Bị động: that + S + be + V3/V-ed|We insist that the work be finished today.
+N|Động từ giữ nguyên thể ở mọi ngôi, không thêm -s/-es.|I suggest that he go. (không nói: he goes)
+N|Với be, dùng "be" cho mọi ngôi.|The boss demands that he be present.
+N|Phủ định chỉ cần thêm "not", không dùng do/does/did.|I suggest that he not drive tonight.
+N|"Suggest" cũng đi với V-ing khi không nêu chủ thể.|I suggest going early.
+A|Đưa ra lời khuyên.|I recommend that you study every day.
+A|Đặt yêu cầu trong công việc.|The manager requires that all reports be submitted by Friday.
+A|Đề xuất trong cuộc họp.|I propose that we postpone the meeting.
+X|M|I suggest that he ___ a doctor.|sees/see/saw|1
+X|M|The teacher demanded that she ___ on time.|is/be/was|1
+X|M|They insisted that the work ___ finished today.|is/was/be|2
+X|M|I recommend that she ___ take that course.|not/does not/did not|0
+X|F|I suggest that he ___ (go) to bed early.|go
+X|F|We demand that she ___ (be) told the truth.|be
+X|F|The doctor advised that he ___ (not / smoke).|not smoke
+X|T|She suggested that he goes home.|S
+X|T|It is required that every student wear a uniform.|Đ
+X|O|I suggest that you take a break
+@It is important that...|Subjunctive: It is important that...|Thức giả định sau tính từ|Thức giả định cũng dùng sau cấu trúc It + be + tính từ + that, khi tính từ chỉ sự quan trọng, cần thiết như important, essential, vital, necessary, crucial, imperative, advisable, urgent. Động từ sau that ở dạng nguyên mẫu không "to".
+U|It is important that he arrive on time.|Điều quan trọng là anh ấy phải đến đúng giờ.
+U|It is essential that every child have access to education.|Điều thiết yếu là mọi trẻ em đều được đi học.
+U|It is necessary that she be there.|Cần thiết là cô ấy phải có mặt ở đó.
+S|It + be + adj + that + S + V (nguyên mẫu)|It is vital that she attend the meeting.
+S|It + be + adj + that + S + should + V|It is necessary that you should wear a helmet.
+S|Phủ định: that + S + not + V|It is important that he not forget his passport.
+S|Bị động: that + S + be + V3/V-ed|It is crucial that the data be protected.
+N|Chỉ dùng với tính từ chỉ tầm quan trọng, sự cần thiết.|It is essential that he be careful.
+N|Với tính từ chỉ sự thật (true, obvious, clear), dùng thì bình thường.|It is obvious that he is late.
+N|Có thể thay bằng It is important for sb to V.|It is important for him to arrive on time.
+A|Nêu quy định.|It is essential that all employees wear ID cards.
+A|Khuyên về sức khỏe.|It is important that you drink enough water.
+A|Dặn dò khi chuẩn bị thi.|It is vital that students review before the exam.
+X|M|It is important that he ___ on time.|arrives/arrive/arrived|1
+X|M|It is essential that she ___ present.|is/be/was|1
+X|M|It is vital that the documents ___ signed today.|are/be/were|1
+X|M|It is necessary that you ___ forget your passport.|don't/not/didn't|1
+X|F|It is important that every student ___ (study) hard.|study
+X|F|It is crucial that the rules ___ (follow).|be followed
+X|F|It is necessary that he ___ (not / be) late.|not be
+X|T|It is important that she attends the meeting.|S
+X|T|It is obvious that he is lying.|Đ
+X|O|It is essential that everyone wear a helmet`;
+const GR=[['1. Wish','#2340D8','✨',[0,1,2]],['2. Cấu trúc giả định','#B0206A','🧩',[3,4,5,6]],['3. Subjunctive','#0A7A5C','📘',[7,8]]];
+const SEC=['Định nghĩa','Cách dùng','Cấu trúc','Lưu ý','Cách áp dụng','Bài tập'];
+const D=RAW.trim().split('\n@').map((b,k)=>{const L=b.replace(/^@/,'').split('\n'),h=L[0].split('|'),t={id:'t'+(k+1),n:h[0],tt:h[1],sub:h[2],def:h[3],U:[],S:[],N:[],A:[],X:[]};
+ L.slice(1).forEach(l=>{const p=l.split('|');t[p[0]].push(p.slice(1))});t.col=GR.find(g=>g[3].includes(k))[1];return t});
+let done={};try{done=JSON.parse(localStorage.getItem('hyp-done')||'{}')}catch(e){}
+const save=()=>{try{localStorage.setItem('hyp-done',JSON.stringify(done))}catch(e){}};
+const $=id=>document.getElementById(id),SH=a=>[...a].sort(()=>Math.random()-.5);
+const say=t=>{try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t.replace(/→.*$/,'').replace(/\(.*?\)/g,''));u.lang='en-GB';u.rate=.85;speechSynthesis.speak(u)}catch(e){}};
+document.addEventListener('click',e=>{const b=e.target.closest('[data-say]');if(b){e.preventDefault();say(b.dataset.say)}});
+const norm=s=>s.toLowerCase().replace(/[’‘]/g,"'").replace(/[.!?]/g,'').replace(/\s+/g,' ').trim();
+function upd(){const n=Object.keys(done).length;$('pg').textContent=`Đã hoàn thành ${n}/9 chủ đề`}
+
+function home(){
+  const tile=t=>`<a class="tile${done[t.id]!=null?' ok':''}" data-s="${done[t.id]}/10" href="#${t.id}" style="--c:${t.col}"><code>${t.sub}</code><b>${t.tt}</b><span>6 phần · 10 bài tập</span></a>`;
+  const rows=D.map(t=>`<tr><td><b>${t.n}</b></td><td>${t.S[0][0]}</td><td>${t.S[0][1]}</td></tr>`).join('');
+  $('app').innerHTML=`<main class="w"><header class="hero"><h1>Cấu trúc <span>giả định</span> trong tiếng Anh</h1><p>Wish, If only, Would rather, It's time, As if và Subjunctive. Mỗi chủ đề đều có định nghĩa, cách dùng, cấu trúc, lưu ý, cách áp dụng và 10 bài tập.</p></header>
+  ${GR.map(g=>`<h2 class="grp" style="--c:${g[1]}"><i>${g[2]}</i>${g[0]}</h2><div class="tiles">${g[3].map(i=>tile(D[i])).join('')}</div>`).join('')}
+  <h2 class="grp" style="--c:#2340D8"><i>📋</i>Bảng tóm tắt nhanh</h2><div class="tbw"><table class="tb"><tr><th>Chủ đề</th><th>Cấu trúc</th><th>Ví dụ</th></tr>${rows}</table></div><div style="height:60px"></div></main>`}
+
+function mc(x,el,fin){const[ ,q,o,a]=x,O=o.split('/');el.innerHTML=`<p class="q">${q}</p><div class="opts">${O.map((v,i)=>`<button class="opt" data-i="${i}">${v}</button>`).join('')}</div><div class="fb"></div>`;
+  const B=el.querySelectorAll('.opt');B.forEach(b=>b.onclick=()=>{if(el.dataset.d)return;el.dataset.d=1;const ok=+b.dataset.i===+a;b.classList.add(ok?'good':'bad');if(!ok)B[a].classList.add('good');ff(el,ok,ok?'':'Đáp án đúng: '+O[a]);fin(ok)})}
+function ff(el,ok,m){const f=el.querySelector('.fb');f.className='fb '+(ok?'g':'b');f.textContent=ok?'Chính xác! 🎉':'Chưa đúng. '+m}
+const R={
+ M:mc,
+ T(x,el,fin){const ans=x[2]==='Đ';el.innerHTML=`<p class="q">${x[1]}</p><div class="opts"><button class="opt" data-v="1">✔ Đúng</button><button class="opt" data-v="0">✘ Sai</button></div><div class="fb"></div>`;
+  el.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{if(el.dataset.d)return;el.dataset.d=1;const ok=(b.dataset.v==='1')===ans;b.classList.add(ok?'good':'bad');ff(el,ok,'Câu này '+(ans?'đúng':'sai')+'.');fin(ok)})},
+ F(x,el,fin){const[a,b]=x[1].split('___');el.innerHTML=`<p class="q">${a}<input class="in" aria-label="Điền đáp án" autocomplete="off">${b}</p><button class="btn" style="padding:10px 22px;font-size:16px">Kiểm tra</button><div class="fb"></div>`;
+  el.querySelector('button').onclick=()=>{if(el.dataset.d)return;const v=norm(el.querySelector('.in').value);if(!v)return;el.dataset.d=1;const ok=x[2].split('/').some(s=>norm(s)===v);ff(el,ok,'Đáp án: '+x[2].split('/')[0]);fin(ok)}},
+ O(x,el,fin){const s=x[1],w=s.split(' ');el.innerHTML=`<p class="q">Sắp xếp các từ thành câu đúng</p><div class="ans"></div><div class="bank">${SH(w.map((v,i)=>i)).map(i=>`<button class="opt">${w[i]}</button>`).join('')}</div><button class="btn" style="padding:10px 22px;font-size:16px;margin-top:10px">Kiểm tra</button><div class="fb"></div>`;
+  const A=el.querySelector('.ans'),B=el.querySelector('.bank');el.querySelectorAll('.bank .opt').forEach(b=>b.onclick=()=>{if(!el.dataset.d)(b.parentNode===B?A:B).appendChild(b)});
+  el.querySelector('.btn').onclick=()=>{if(el.dataset.d||!A.children.length)return;el.dataset.d=1;const ok=[...A.children].map(c=>c.textContent).join(' ')===s;ff(el,ok,'Đáp án: '+s);fin(ok)}}};
+
+function lesson(k){
+  const t=D[k],ex=(e,v)=>`<div class="en"><span>${e}</span><button class="say" data-say="${e.replace(/"/g,'')}" aria-label="Nghe">🔊</button></div>${v?`<div class="vi">${v}</div>`:''}`;
+  const sec=(i,b)=>`<section class="sec" id="p${i}"><h2><i>${['I','II','III','IV','V','VI'][i]}</i>${SEC[i]}</h2>${b}</section>`;
+  $('app').innerHTML=`<main class="w" style="--c:${t.col}"><div class="crumb"><a href="#home">← Tất cả chủ đề</a><span>${k+1} / 9</span></div>
+  <header class="lh"><small>Hypothetical structures</small><h1>${t.tt}</h1><p>${t.sub}</p></header>
+  <nav class="sn">${SEC.map((s,i)=>`<a href="#p${i}" data-p="p${i}">${['I','II','III','IV','V','VI'][i]}. ${s}</a>`).join('')}</nav>
+  ${sec(0,`<p class="def">${t.def}</p>`)}
+  ${sec(1,t.U.map((u,i)=>`<div class="card"><div class="lab">Ví dụ ${i+1}</div>${ex(u[0],u[1])}</div>`).join(''))}
+  ${sec(2,t.S.map((s,i)=>`<div class="card"><div class="f" data-k="${i+1}">${s[0]}</div>${ex(s[1])}</div>`).join(''))}
+  ${sec(3,t.N.map((n,i)=>`<div class="card"><div class="f" data-k="!" style="color:var(--ink);font-size:19px">${n[0]}</div>${ex(n[1])}</div>`).join(''))}
+  ${sec(4,t.A.map((a,i)=>`<div class="card"><div class="lab">Tình huống ${i+1}: ${a[0]}</div>${ex(a[1])}</div>`).join(''))}
+  ${sec(5,`<div id="exl"></div><div class="res"><span id="sc">Điểm: 0 / ${t.X.length}</span><button class="btn" id="rs" style="background:var(--bg);color:var(--ink)">Làm lại</button></div>`)}
+  <div class="nav2">${k?`<a class="btn gh" href="#${D[k-1].id}">← ${D[k-1].n}</a>`:'<span></span>'}${k<8?`<a class="btn" href="#${D[k+1].id}">${D[k+1].n} →</a>`:'<span></span>'}</div></main>`;
+  const run=()=>{$('exl').innerHTML='';let sc=0,an=0;const N=t.X.length;$('sc').textContent=`Điểm: 0 / ${N}`;
+   t.X.forEach((x,i)=>{const el=document.createElement('div');el.className='ex';$('exl').appendChild(el);const box=document.createElement('div');el.innerHTML=`<h3>Câu ${i+1} · ${{M:'Trắc nghiệm',F:'Điền từ',T:'Đúng / Sai',O:'Sắp xếp câu'}[x[0]]}</h3>`;el.appendChild(box);
+    R[x[0]](x,box,ok=>{an++;if(ok)sc++;$('sc').textContent=`Điểm: ${sc} / ${N}`+(an===N?' · Hoàn thành! 🎉':'');if(an===N){done[t.id]=sc;save();upd()}})})};
+  $('rs').onclick=run;run()}
+
+function route(){const h=location.hash.slice(1);if(/^p\d$/.test(h))return;const k=D.findIndex(t=>t.id===h);k<0?home():lesson(k);upd();scrollTo(0,0)}
+addEventListener('hashchange',route);route();
+</script>
+</body>
+</html>
